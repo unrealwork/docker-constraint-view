@@ -4,7 +4,8 @@
     <title>Angular QuickStart</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css"
+          href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css"/>
 
     <!-- Polyfill(s) for older browsers -->
     <script src="node_modules/core-js/client/shim.min.js"></script>
@@ -12,6 +13,11 @@
     <script src="node_modules/zone.js/dist/zone.js"></script>
     <script src="node_modules/reflect-metadata/Reflect.js"></script>
     <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/d3/3.4.11/d3.min.js"></script>
+    <script type="text/javascript" src="//apps.axibase.com/chartlab/portal/JavaScript/portal_init.js"></script>
+    <script type="text/javascript" src="//apps-chartlab.axibase.com/chartlab/portal/JavaScript/charts.min.js"></script>
+    <script type="text/javascript" src="//apps-chartlab.axibase.com/chartlab/portal/JavaScript/initialize.js"></script>
+    <link rel="stylesheet" type="text/css" href="//apps-chartlab.axibase.com/chartlab/portal/CSS/charts.min.css"/>
 
     <script src="systemjs.config.js"></script>
     <script>
@@ -20,6 +26,6 @@
   </head>
 
   <body>
-    <my-app>Loading AppComponent content here ...</my-app>
+    <my-app></my-app>
   </body>
 </html>
